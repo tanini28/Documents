@@ -1,0 +1,24 @@
+git branch — управляє гілками в репозиторії. 
+git merge — робить злиття гілок.
+
+git config --global —list показує інформацію про прив'язку Git до GitHub
+git config --global user.name <your_username>
+git config --global user.email <your_email> показує Гіту, який саме користувач тут працює
+git clone <repo_name> клонує(завантажує) репозиторій з GitHub на ваш ПК
+cd <directory> змінює директорію, в якій працюємо
+git status показує статус файлів (змінені, відстежуються)
+git add .  відслідковує ВСІ файли
+git add <file_name>  відслідковує конкретний файл
+git commit -m "commit_name" створює  коміт (зберігає версію) зі змінами
+git push https://<GITHUB_ACCESS_TOKEN>@github.com/
+<GITHUB_USERNAME>/<REPOSITORY_NAME>.git  пушить(відправляє зміни) на GitHub
+git init робить з папки на ПК репозиторій, ініціює його
+далі робимо зміни в файлах в репозиторії
+git status показує статус файлів (змінені, відстежуються)
+git add .  відслідковує ВСІ файли
+git add <file_name>  відслідковує конкретний файл
+git commit -m "commit_name" створює коміт (зберігає версію) зі змінами
+git remote add origin <link_to_repo> об'єднує репозиторій на ПК з репозиторієм на ГітХабі
+git push https://<GITHUB_ACCESS_TOKEN>@github.com/
+<GITHUB_USERNAME>/<REPOSITORY_NAME>.git пушить(відправляє зміни) на GitHub
+git pull origin <branch_name> стягує останні зміни з потрібної гілки
